@@ -11,7 +11,7 @@
             margin: 0;
             padding: 0;
             background-color: #f0f8ff; /* Светло-голубой фон */
-            color: #222;
+            color: #333;
         }
 
         /* Шапка */
@@ -100,7 +100,7 @@
 
         /* Контакты */
         #contact a {
-            color: #3b82f6; /* Ярко-синий */
+            color: #ff6b6b; /* Красный акцент */
             text-decoration: none;
             font-weight: bold;
             font-size: 1.2em;
@@ -108,7 +108,7 @@
         }
 
         #contact a:hover {
-            color: #1e40af; /* Более темный синий при наведении */
+            color: #d43f3f; /* Более темный красный при наведении */
         }
 
         /* Подвал */
@@ -118,6 +118,18 @@
             text-align: center;
             padding: 20px;
             font-size: 0.9em;
+        }
+
+        /* Дополнительные элементы для эстетики */
+        .highlight {
+            color: #ffbe76; /* Оранжевый акцент */
+        }
+
+        .accent-box {
+            background-color: #f7e7ce; /* Теплый бежевый оттенок */
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
         }
     </style>
 </head>
@@ -136,7 +148,7 @@
 
     <section id="about">
         <h2>Обо мне</h2>
-        <p>Привет! Меня зовут [Ваше Имя], я [краткое описание вашей профессии]. Добро пожаловать в моё портфолио!</p>
+        <p>Привет! Меня зовут <span class="highlight">[Ваше Имя]</span>, я [краткое описание вашей профессии]. Добро пожаловать в моё портфолио!</p>
     </section>
 
     <section id="portfolio">
@@ -145,14 +157,6 @@
             <div class="project">
                 <img src="https://via.placeholder.com/280x200" alt="Проект 1">
                 <p>Описание проекта 1</p>
-            </div>
-            <div class="project">
-                <img src="https://via.placeholder.com/280x200" alt="Проект 2">
-                <p>Описание проекта 2</p>
-            </div>
-            <div class="project">
-                <img src="https://via.placeholder.com/280x200" alt="Проект 3">
-                <p>Описание проекта 3</p>
             </div>
         </div>
     </section>
@@ -164,10 +168,6 @@
 
     <footer>
         <p>&copy; 2025. Все права защищены.</p>
-        <section id="new-section">
-            <h2>Новый раздел</h2>
-            <p>Это пример нового раздела, добавленного в проект.</p>
-        </section>
     </footer>
 </body>
 </html>
