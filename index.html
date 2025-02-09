@@ -33,10 +33,6 @@
             margin: 0;
         }
 
-        nav ul li {
-            display: inline;
-        }
-
         nav ul li a {
             color: white;
             text-decoration: none;
@@ -64,13 +60,6 @@
             color: #1e3a8a; /* Темно-синий */
         }
 
-        p {
-            font-size: 1.2em;
-            line-height: 1.6;
-            color: #444;
-        }
-
-        /* Портфолио */
         .projects {
             display: flex;
             justify-content: center;
@@ -85,6 +74,7 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
             max-width: 280px;
+            text-align: center;
         }
 
         .project:hover {
@@ -98,20 +88,6 @@
             border-radius: 10px;
         }
 
-        /* Контакты */
-        #contact a {
-            color: #ff6b6b; /* Красный акцент */
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.2em;
-            transition: color 0.3s ease-in-out;
-        }
-
-        #contact a:hover {
-            color: #d43f3f; /* Более темный красный при наведении */
-        }
-
-        /* Подвал */
         footer {
             background: #1e3a8a;
             color: white;
@@ -136,34 +112,30 @@
 
     <section id="about">
         <h2>Обо мне</h2>
-        <p>Привет! Меня зовут <span class="highlight">[Ваше Имя]</span>, я [краткое описание вашей профессии]. Добро пожаловать в моё портфолио!</p>
+        <p>Привет! Меня зовут [Ваше Имя], я [краткое описание вашей профессии]. Добро пожаловать в моё портфолио!</p>
     </section>
 
     <section id="portfolio">
         <h2>Мои работы</h2>
         <div class="projects">
             <div class="project">
-                <img src="https://via.placeholder.com/280x200?text=AI+Project" alt="Искусственный интеллект">
+                <img src="https://via.placeholder.com/280x200?text=Искусственный+Интеллект" alt="Искусственный интеллект">
                 <p>Проект по искусственному интеллекту</p>
             </div>
             <div class="project">
-                <img src="https://via.placeholder.com/280x200?text=Machine+Learning" alt="Машинное обучение">
+                <img src="https://via.placeholder.com/280x200?text=Машинное+Обучение" alt="Машинное обучение">
                 <p>Анализ данных с машинным обучением</p>
             </div>
             <div class="project">
-                <img src="https://via.placeholder.com/280x200?text=Future+Tech" alt="Технологии будущего">
+                <img src="https://via.placeholder.com/280x200?text=Технологии+Будущего" alt="Технологии будущего">
                 <p>Прогнозирование трендов в технологиях</p>
             </div>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Контакты</h2>
-        <p>Свяжитесь со мной по email: <a href="mailto:your@email.com">your@email.com</a></p>
-    </section>
-
     <footer>
         <p>&copy; 2025. Все права защищены.</p>
     </footer>
+
 </body>
 </html>
